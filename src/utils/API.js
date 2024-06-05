@@ -13,7 +13,7 @@
 //   .catch(err => console.error(err));
 
 const search = (query) =>
-  fetch(`https://www.omdbapi.com/?t=${query}&apikey=4621997e`)
+  fetch(`https://www.omdbapi.com/?t=${query}&apikey=`)
   .then(response => response.json())
   .then(response => response)
   .catch(err => console.error(err));
